@@ -33,9 +33,9 @@ public class UIManagerRoom5 : MonoBehaviour
 
     [Header("This part is for the puzzle answer, make sure you add the answer for your puzzle")]
     public string puzzleAnswer;
-    public string puzzleAnswer2;
     public string puzzleAnswer3;
-    
+    public string[] puzzle2Answers;
+
     [Header("Check this variable if this is the last puzzle room in the game")]
     public bool lastRoom = false;
 
@@ -73,9 +73,19 @@ public class UIManagerRoom5 : MonoBehaviour
     // This is a fungtion to check puzzle 2 answer, if correct a new clue will be open and player can advance to the new map
     public void CheckingAnswer2(bool canAdvance)
     {
-        if (puzzleInput2.text == puzzleAnswer2)
+        var a = 0;
+
+        for(int i = 0; i < puzzle2Answers.Length; i++)
         {
-            
+            if (puzzleInput2.text == puzzle2Answers[i])
+            {
+                a++;
+                break;
+            }
+        }
+
+        if (a > 0)
+        {
             SwitchCorrect2(true);
             AnswerCorrect(canAdvance);
         }
