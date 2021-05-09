@@ -150,6 +150,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 707013498}
   - {fileID: 177163948}
   - {fileID: 1619855638}
   m_Father: {fileID: 82054747}
@@ -354,7 +355,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -484,7 +485,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1420.4121, y: 943.98236}
+  m_SizeDelta: {x: 1286.7778, y: 855.1712}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &38353269
 MonoBehaviour:
@@ -505,7 +506,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a9902733c9ea1f049bff874f8fbe96fc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 93c28e68810183f498afe66dcfb743f5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -677,7 +678,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -974,7 +975,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -1031,8 +1032,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -420, y: -325.9}
-  m_SizeDelta: {x: 73.52707, y: 43.040237}
+  m_AnchoredPosition: {x: 367.1, y: -255.89}
+  m_SizeDelta: {x: 203, y: 142.11102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &107491082
 MonoBehaviour:
@@ -1055,8 +1056,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.77545893, b: 0, a: 1}
-    m_PressedColor: {r: 1, g: 0.77545893, b: 0, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.90096486, b: 0, a: 1}
+    m_PressedColor: {r: 1, g: 0.90096486, b: 0, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1107,7 +1108,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8219705c57347f84995be718d28e596c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b4722ac294ab04048bf33d9a0f95f2e2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1182,7 +1183,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -1610,12 +1611,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8553417}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1223, y: 1367.7971}
+  m_SizeDelta: {x: 1223, y: 967.801}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &177163949
 MonoBehaviour:
@@ -1637,7 +1638,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 54
     m_FontStyle: 0
     m_BestFit: 0
@@ -1649,13 +1650,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.15
-  m_Text: "Investigation Board\n\nAnother picture somewhere on the bord, is the picture
-    of a hand, marked \"3\"\n\nA Picture of Frank Markone with the mayor, \nmayor's
-    wife and the police chief with his. \nWhat the hell\u2026\r\n\nI need to know
-    who hired Spade. This might be \nthe key to this whole mess.\n\nI see a note
-    there, in the corner. \n\n\"He came to me today, in his stupid feathered hat,
-    and asked me to follow a certain someone. He \nwas vague, never said anything
-    directly. But there was no mistake. Jesus, I might be in over \nmy head.\"\r\n"
+  m_Text: "Investigation Board\n\n\"A Picture of Frank Markone with the mayor, mayor's
+    wife and the police chief. What the hell\u2026\nI need to know who hired Spade.
+    This might be the key to this whole mess. \n\nI see a note there, in the corner.
+    It reads: \"\"He came to me today, in his stupid lime-green hat. And asked me
+    to follow a certain someone. He was vague, never said anything directly. But
+    there was no mistake. Jesus, I might be in over my head.\"\"\""
 --- !u!222 &177163950
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1698,8 +1698,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -612.5, y: -18}
-  m_SizeDelta: {x: 648.23315, y: 463.06854}
+  m_AnchoredPosition: {x: -598.7, y: -18}
+  m_SizeDelta: {x: 675.8074, y: 482.76617}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &198409566
 MonoBehaviour:
@@ -1720,7 +1720,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5a6a03e48dbc61e4e8a545343021070c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4b8270bc539e24342a2c09f993782833, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1795,7 +1795,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -1872,7 +1872,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 313f5ddca264eb647a49d3cd83915631, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d52ad26e85249f943bea9ca887076082, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1924,8 +1924,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -42.281, y: -241.2}
-  m_SizeDelta: {x: 1734.5476, y: 621.5197}
+  m_AnchoredPosition: {x: -42.281, y: -309.4}
+  m_SizeDelta: {x: 1734.5476, y: 485.20758}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &271288674
 MonoBehaviour:
@@ -1947,11 +1947,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 60
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
+    m_FontSize: 56
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 6
+    m_MinSize: 5
     m_MaxSize: 60
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1960,8 +1960,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Locked Safe\n\nThis paranoid prick always had a fondness for heavy-duty
-    safes. \nI try a couple of combinations, but all in vain. Though, I can tell
-    the combination must be 9 letters. The clicking never lies"
+    safes. I try a couple of combinations, but all in vain. Though, I can tell the
+    combination must be 9 letters. The clicking never lies. \r"
 --- !u!222 &271288675
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2027,7 +2027,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 2
     m_BestFit: 0
@@ -2208,8 +2208,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -31.03, y: -60.56}
-  m_SizeDelta: {x: 54.964134, y: 89.41829}
+  m_AnchoredPosition: {x: -703.4, y: -130.9}
+  m_SizeDelta: {x: 238.87958, y: 350.79053}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &370110163
 MonoBehaviour:
@@ -2232,8 +2232,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.43835026, b: 0, a: 1}
-    m_PressedColor: {r: 1, g: 0.43835026, b: 0, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.90096486, b: 0, a: 1}
+    m_PressedColor: {r: 1, g: 0.90096486, b: 0, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -2284,7 +2284,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f9257be4d6248e545a73776b66109b2f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4e88e3570999a41469e676d33439edc3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2675,7 +2675,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 54
     m_FontStyle: 0
     m_BestFit: 0
@@ -2690,8 +2690,8 @@ MonoBehaviour:
   m_Text: 'Spade''s typewriter
 
 
-    "Spade''s typewriter. There''s something wrong
-    with it. As if he made it into a code machine.". '
+    Spade''s typewriter. There''s something wrong
+    with it. As if he made it into a code machine.'
 --- !u!222 &456395846
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2735,7 +2735,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1610.467, y: 1039.407}
+  m_SizeDelta: {x: 1610.467, y: 1216.5762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &463583246
 MonoBehaviour:
@@ -2757,7 +2757,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 58
     m_FontStyle: 0
     m_BestFit: 0
@@ -2769,12 +2769,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.1
-  m_Text: "PHOTO\n\nThere's a note in the safe: \n\n\"They met again in the secret
+  m_Text: "PHOTO\n\n\"There's a note in the safe: \"\"They met again in the secret
     room of the Lousy Rabbit. I know it, but I can't go to the mayor with only grainy
-    photos and my word. \r\n\nI need to go back. \r\n\nHis daughter is willing to
-    help. Figures. She wrote \"Rosebud\" on a napkin. This will get me the evidence.
+    photos and my word. \n\nI need to go back. \n\nHis daughter is willing to help.
+    Figures. She wrote \"\"Rosebud\"\" on a napkin. This will get me the evidence.
     The letter from him that will prove it all. I hope I will survive long enough
-    to get paid for this crap.\"\r\n"
+    to get paid for this crap.\"\"\n\nThere's also a photo of Marcone, his whife,
+    the mayor's wife and the police chief at an opening of Southbridge mall last
+    fall.\""
 --- !u!222 &463583247
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2840,7 +2842,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 2
     m_BestFit: 0
@@ -3029,7 +3031,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -3086,8 +3088,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 437.9, y: -281.7}
-  m_SizeDelta: {x: 875.82043, y: 512.4341}
+  m_AnchoredPosition: {x: -203.1, y: -305}
+  m_SizeDelta: {x: 695.97534, y: 570.4995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &510577449
 MonoBehaviour:
@@ -3110,8 +3112,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.77545893, b: 0, a: 1}
-    m_PressedColor: {r: 1, g: 0.77545893, b: 0, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.90096486, b: 0, a: 1}
+    m_PressedColor: {r: 1, g: 0.90096486, b: 0, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -3162,7 +3164,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7b2e028b068ec7e489ba60925cdd015e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6407e5ab862d0cc469b0128912e0a86f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3237,7 +3239,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -3351,7 +3353,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -3489,12 +3491,12 @@ RectTransform:
   - {fileID: 1169699223}
   - {fileID: 1530737199}
   m_Father: {fileID: 1288477029}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 195.3, y: -4.8992}
-  m_SizeDelta: {x: 1260, y: 1121.436}
+  m_AnchoredPosition: {x: -33.8, y: -4.8992}
+  m_SizeDelta: {x: 1718.1152, y: 1121.436}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &620180487
 MonoBehaviour:
@@ -3580,7 +3582,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &628024817
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3593,7 +3595,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1288477029}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -3768,7 +3770,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -4095,17 +4097,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 707013497}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1288477029}
-  m_RootOrder: 1
+  m_Father: {fileID: 8553417}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 119.8999, y: -50}
-  m_SizeDelta: {x: 360.3487, y: 430.23956}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1143.8267, y: 783.386}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &707013499
 MonoBehaviour:
@@ -4126,7 +4128,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 396ac1eeff482064fa225abbddab4225, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c5fb6b7bebbdd584bac7aaff19ba3879, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4331,7 +4333,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -4475,7 +4477,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -4531,7 +4533,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 50, y: -50}
-  m_SizeDelta: {x: 529.48456, y: 529.48456}
+  m_SizeDelta: {x: 675, y: 916}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &961887026
 MonoBehaviour:
@@ -4552,7 +4554,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6c58e4d46e498ab41ba6fbc7f2449480, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 80013d7cdc7ded446a3c2493c90d3db3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4627,7 +4629,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -4705,7 +4707,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -4783,7 +4785,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -4861,7 +4863,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -4939,7 +4941,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -5147,7 +5149,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 2
     m_BestFit: 0
@@ -5668,7 +5670,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -5968,7 +5970,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -6054,7 +6056,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -6132,7 +6134,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -6286,7 +6288,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 50, y: -50}
-  m_SizeDelta: {x: 1029.4878, y: 585.65247}
+  m_SizeDelta: {x: 1072.4199, y: 610.07556}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1262750186
 MonoBehaviour:
@@ -6307,7 +6309,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 313f5ddca264eb647a49d3cd83915631, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d52ad26e85249f943bea9ca887076082, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6392,7 +6394,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1668828062}
-  - {fileID: 707013498}
   - {fileID: 628024817}
   - {fileID: 620180486}
   m_Father: {fileID: 488723120}
@@ -6716,8 +6717,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 638314971}
   m_HandleRect: {fileID: 638314970}
   m_Direction: 2
-  m_Value: 1.0000002
-  m_Size: 0.53786
+  m_Value: 1
+  m_Size: 0.5156706
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6946,7 +6947,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -7026,7 +7027,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -7104,7 +7105,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -7352,7 +7353,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -7430,25 +7431,24 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 56
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
+    m_FontSize: 52
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
-    m_MaxSize: 60
+    m_MaxSize: 56
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.07
-  m_Text: "Two Photos\n\nWhat the hell was Spade up to? There are two photos of Frank
-    Marcone, the most notorious crime boss in the city. The kind that can kill a
-    PI without interrupting his lunch.\n\nThe first photo is on Inauguration day.
-    Marcone, his son Peter, Mayor Brinn, and police chief Sommerset. April 20th,
-    1947. \r\n\nThe second one is the opening of Sherwood Casino on June 7th, 1946.
-    Again, Marcone and the mayor, with their wives Elvira and Regina, and bishop
-    Rober Partridge.\r\n"
+  m_Text: "Two Photos\n\n\"What the hell was Spade up to? There are two photos of
+    Frank Marcone, the most notorious crime boss in the city. The kind that can kill
+    a PI without interrupting his lunch.\n\nThe first photo is on Inauguration day.
+    Marcone with his wife Elvira, Mayor Brinn and the police chief. April 20th, 1947.
+    \n\nThe second one is the opening of Sherwood Casino on June 7th, 1946. Again,
+    Marcone and the mayor, with both of their wives, and bishop Rober Partridge.\""
 --- !u!222 &1475367622
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7669,7 +7669,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 684906469}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6276239
+  m_Size: 0.5082306
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7768,7 +7768,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -7782,7 +7782,7 @@ MonoBehaviour:
     m_LineSpacing: 1.1
   m_Text: "TYPE MACHINE\n\nLousy Rabbit. A bar downtown\u2026 a lousy bar. The kind
     of place frequented by people you don't want to bump into at night. Well\u2026
-    I guess I'll have to check it out."
+    I guess I'll have to check it out.\r"
 --- !u!222 &1575062092
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7826,7 +7826,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 50, y: -50}
-  m_SizeDelta: {x: 629.3792, y: 430.23956}
+  m_SizeDelta: {x: 572, y: 560}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1578323150
 MonoBehaviour:
@@ -7847,7 +7847,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 569c40061d7b565438c2fee92aa47aca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff63e68a5155ad541b2b9d50a2dfb524, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7922,7 +7922,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -8000,7 +8000,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -8057,8 +8057,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -331.9, y: 441.2}
-  m_SizeDelta: {x: 138.9773, y: 213.93073}
+  m_AnchoredPosition: {x: -767.5, y: 365.5}
+  m_SizeDelta: {x: 380.5869, y: 278.4624}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1594419276
 MonoBehaviour:
@@ -8081,8 +8081,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.77545893, b: 0, a: 1}
-    m_PressedColor: {r: 1, g: 0.77545893, b: 0, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.90096486, b: 0, a: 1}
+    m_PressedColor: {r: 1, g: 0.90096486, b: 0, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -8133,7 +8133,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b84779359bfe1e04b92feb285f0aca61, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e76d760022300e740bd28671f038ca1f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8183,7 +8183,7 @@ RectTransform:
   - {fileID: 149477315}
   - {fileID: 405914881}
   m_Father: {fileID: 8553417}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8210,7 +8210,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -8267,8 +8267,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 436.2, y: -124.2}
-  m_SizeDelta: {x: 233.27606, y: 173.21658}
+  m_AnchoredPosition: {x: -199.31, y: -113.88}
+  m_SizeDelta: {x: 175.17365, y: 166.04156}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1659035686
 MonoBehaviour:
@@ -8291,8 +8291,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.3577944, b: 0, a: 1}
-    m_PressedColor: {r: 1, g: 0.3577944, b: 0, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.90096486, b: 0, a: 1}
+    m_PressedColor: {r: 1, g: 0.90096486, b: 0, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -8343,7 +8343,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a3ecbbe51acf6f74fa7a4e23acd864e8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4510867b01173604eac22b8732a1abf5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8548,7 +8548,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -8833,7 +8833,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cc00467a14d39cb40b0bb8a0f7ec3cf3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 38eb4de2458ec814a962e70307a846b9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8908,7 +8908,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -9126,7 +9126,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -9204,7 +9204,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -9282,7 +9282,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -9477,8 +9477,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -42.281, y: -300.3}
-  m_SizeDelta: {x: 1734.5476, y: 599.15485}
+  m_AnchoredPosition: {x: 309.9, y: -24.878}
+  m_SizeDelta: {x: 1030.281, y: 1149.999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1884274476
 MonoBehaviour:
@@ -9500,7 +9500,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -9748,7 +9748,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 2
     m_BestFit: 0
@@ -9916,7 +9916,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1937294839
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10160,7 +10160,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -10501,7 +10501,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 2
     m_BestFit: 0
@@ -10675,8 +10675,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 58
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
+    m_FontSize: 54
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
@@ -10686,14 +10686,14 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1.08
-  m_Text: "MAYOR\n\nYes\u2026 the mayor hired Spade. But for what? All these pictures
+    m_LineSpacing: 1.1
+  m_Text: "MAYOR\n\n\"Yes\u2026 the mayor hired Spade. But for what? All these pictures
     of Marcone\u2026 Marcone's bar\u2026 It seems that he was the target of the investigation.
-    What did Spade get himself into. Spying on Marcone? Insanity. \r\n\nIf Spade
-    hadn't changed, he probably changed the code for his safe at the beginning of
-    the investigation. He hides sensitive materials there. And he usually uses some
-    form of the employers made for the code. At least he used to. Something not too
-    obvious, though\u2026 something\u2026\r\n"
+    What did Spade get himself into. Spying on Marcone? Insanity. \n\nIf Spade hadn't
+    changed, he probably changed the code for his safe at the beginning of the investigation.
+    He hides sensitive materials there. And he usually uses some form of the employers
+    made for the code. At least he used to. Something not too obvious, though\u2026
+    something\u2026\""
 --- !u!222 &2023685864
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10761,7 +10761,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -10971,7 +10971,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -11055,7 +11055,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2428a440de7bd9f49814898f958e61f9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4f0b582cc820b8e4d9c2fa71625cf43b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11163,8 +11163,13 @@ MonoBehaviour:
   puzzleInput3: {fileID: 1321481868}
   notificationDisplay3: {fileID: 1414448751}
   puzzleAnswer: judicator
-  puzzleAnswer2: Mayor Joel
   puzzleAnswer3: LOUSYRABBIT
+  puzzle2Answers:
+  - Mayor Joel
+  - Mayor Joel Brinn
+  - Joel Brinn
+  - Judicator
+  - Mayor
   lastRoom: 0
 --- !u!1 &2146496711
 GameObject:

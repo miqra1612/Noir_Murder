@@ -158,7 +158,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 1910.5283}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &119004481
 MonoBehaviour:
@@ -217,7 +217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &321516064
 RectTransform:
   m_ObjectHideFlags: 0
@@ -340,7 +340,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -496,9 +496,9 @@ RectTransform:
   m_Father: {fileID: 119004480}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 520, y: -1015.26416}
   m_SizeDelta: {x: 1000, y: 1750.5283}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1057165815
@@ -533,16 +533,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "\rDear Mr. Jones.You don't know me, but I know you. Well, I know of you.
+  m_Text: "\"Dear Mr. Jones.You don't know me, but I know you. Well, I know of you.
     You've worked with mr. Spade a while back. Both PIs, both quite infamous in certain
     circles. I know you had a falling out. But I ask you to put whatever drove you
-    apart to rest. \n\nSpade is dead. \r\n\nKilled only an hour ago in Chinatown.
-    The police seem to be under orders not to look too closely at this case. They
-    will sweep it under the rug. What's another death in Chinatown?\n \r\nYou were
-    his friend once. I beg of you, please, take this case. He was an asshole, but
-    he didn't deserve to die like this. You're PI, a good one if the rumors are true.
-    You can bring his killer to justice. \r\nWhatever happened, it's definitely connected
-    to his latest case. \r\nI hope you will heed my plea. \r\n\r\nVeronica M."
+    apart to rest. \n\nSpade is dead. \n\nKilled only an hour ago in Chinatown. The
+    police seem to be under orders not to look too closely at this case. They will
+    sweep it under the rug. What's another death in Chinatown? \n\nYou were his friend
+    once. I beg of you, please, take this case. He was an asshole, but he didn't
+    deserve to die like this. You're PI, a good one if the rumors are true. You can
+    bring his killer to justice. \nWhatever happened, it's definitely connected to
+    his latest case.\n \nI hope you will heed my plea. \n\nVeronica M.\""
 --- !u!222 &1057165816
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -609,7 +609,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a651a33c2519e29429cb8e501e203050, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cb5a01952ae8d214cb439f04003b3f64, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -659,9 +659,9 @@ RectTransform:
   m_Father: {fileID: 119004480}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 520, y: -70}
   m_SizeDelta: {x: 1000, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1246267732
@@ -740,9 +740,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 0}
+  m_SizeDelta: {x: 20, y: -17}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1449174693
 MonoBehaviour:
@@ -864,9 +864,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 20}
+  m_SizeDelta: {x: -17, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1536813150
 MonoBehaviour:
@@ -1031,9 +1031,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: -17}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1836458704
 MonoBehaviour:
@@ -1418,8 +1418,8 @@ RectTransform:
   m_Father: {fileID: 1999335658}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.4386595}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
