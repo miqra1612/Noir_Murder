@@ -484,7 +484,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1690, y: 1102.5927}
+  m_SizeDelta: {x: 1690, y: 1141.3988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &157564994
 MonoBehaviour:
@@ -1847,7 +1847,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1.1
   m_Text: "Photo\n\nMarcone in his revolutionalry red tie, and the mayor beside him
-    during a strice in the capital. Pals for life. No wonder this city is going to
+    during a strike in the capital. Pals for life. No wonder this city is going to
     hell. \n\nWait\u2026 that woman behind them, she was the one who slipped me the
     napkin. Marcone's daughter Veronica. I knew I recognized her... "
 --- !u!222 &576618679
@@ -2023,7 +2023,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1658569600}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6432245
+  m_Size: 0.6072262
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2823,7 +2823,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1533152245}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.4259756
+  m_Size: 0.41969386
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3448,6 +3448,11 @@ MonoBehaviour:
   clue3Open: 0
   clue4Open: 0
   clue5Open: 0
+  room1PuzzleOpen: 0000000000
+  room2PuzzleOpen: 0000000000
+  room3PuzzleOpen: 0000000000
+  room4PuzzleOpen: 0000000000
+  room5PuzzleOpen: 0000000000
 --- !u!4 &1020759655
 Transform:
   m_ObjectHideFlags: 0
@@ -4547,7 +4552,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1690, y: 898.03064}
+  m_SizeDelta: {x: 1690, y: 999.8218}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1206667337
 MonoBehaviour:
@@ -4586,7 +4591,7 @@ MonoBehaviour:
     it. \n\nBut the murder\u2026 no, it's not Marcone's style. Spade would've just
     disappeared, vanished, erased. The murder was clumsy, as if\u2026\n\nI guess
     I better get to the mayor's manor to see if I can find some proof. Accusing the
-    mayor's wife of murder is not the bes career move. I need proof. \""
+    mayor's wife of murder is not the best career move. I need proof. \""
 --- !u!222 &1206667338
 CanvasRenderer:
   m_ObjectHideFlags: 0
