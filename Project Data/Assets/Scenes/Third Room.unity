@@ -923,7 +923,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1823456531}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.3897085
+  m_Size: 0.38124916
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2261,7 +2261,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2077840198}
   m_HandleRect: {fileID: 2077840197}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3216,7 +3216,8 @@ MonoBehaviour:
   m_Text: 'Hint:
 
 
-    1. Match the patern on the note with the bottles.'
+    1. Match the pattern on the note in the alleyway with the
+    first letters of the bottles.'
 --- !u!222 &1078125265
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4710,6 +4711,11 @@ MonoBehaviour:
   clue3Open: 0
   clue4Open: 0
   clue5Open: 0
+  room1PuzzleOpen: 0000000000
+  room2PuzzleOpen: 0000000000
+  room3PuzzleOpen: 0000000000
+  room4PuzzleOpen: 0000000000
+  room5PuzzleOpen: 0000000000
 --- !u!4 &1581309960
 Transform:
   m_ObjectHideFlags: 0
@@ -6585,7 +6591,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1655.739, y: 730.6713}
+  m_SizeDelta: {x: 1655.739, y: 794.6535}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2003490977
 MonoBehaviour:
