@@ -268,7 +268,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.08
-  m_Text: "MAYOR WIFE\n\n\"What the hell are you\u2026 my diary...\"\r\n\nShe is
+  m_Text: "MAYOR'S WIFE\n\n\"What the hell are you\u2026 my diary...\"\r\n\nShe is
     panicked. I can see that. She's shaking. \nI tell her that I know about the affair
     and what she did to poor foolish Spade.\r\n\n\"Affair? No, that's a lie! With
     who?\""
@@ -1038,6 +1038,11 @@ MonoBehaviour:
   clue3Open: 0
   clue4Open: 0
   clue5Open: 0
+  room1PuzzleOpen: 0000000000
+  room2PuzzleOpen: 0000000000
+  room3PuzzleOpen: 0000000000
+  room4PuzzleOpen: 0000000000
+  room5PuzzleOpen: 0000000000
 --- !u!4 &269288800
 Transform:
   m_ObjectHideFlags: 0
@@ -1276,9 +1281,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.05
-  m_Text: "MAYOR WIFE\n\n\"She freezes. Look at the diary. Sighs. \n\r\nThen she
+  m_Text: "MAYOR WIFE\n\n\"She freezes. Looks at the diary. Sighs. \n\r\nThen she
     outstretches her hands, as if asking me to cuff her. \r\n\nWell, I guess arrest
-    is better than facing the mayor and his goons.\n \r\n\"Let's end this\" She sais.
+    is better than facing the mayor and his goons.\n \r\n\"Let's end this\" She says.
     \r\n\nYes\u2026. let's. \r\""
 --- !u!222 &478474612
 CanvasRenderer:
@@ -2087,8 +2092,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 264.7, y: 140.4}
-  m_SizeDelta: {x: 1143.467, y: 768.7557}
+  m_AnchoredPosition: {x: 264.7, y: 108.5}
+  m_SizeDelta: {x: 1143.467, y: 832.507}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &619757619
 MonoBehaviour:
@@ -6900,10 +6905,10 @@ MonoBehaviour:
   notificationDisplay: {fileID: 502130978}
   puzzleInput2: {fileID: 1806847814}
   notificationDisplay2: {fileID: 481409706}
-  puzzleAnswer: 264
+  puzzleAnswer: 246
   puzzleAnswer3: 
   puzzle2Answers:
-  - Markone
+  - Marcone
   - Frank
-  - Frank Markone
+  - Frank Marcone
   lastRoom: 1
