@@ -1278,8 +1278,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "SOMEONE ANSWER FROM THE INSIDE\n\n\" I say the password and there's a
-    pause. Then the guy starts to speak: \r\n\n\"Ah\u2026 you're with Spade. Listen,
+  m_Text: "SOMEONE ANSWERED FROM THE INSIDE\n\n\" I say the password and there's
+    a pause. Then the guy starts to speak: \r\n\n\"Ah\u2026 you're with Spade. Listen,
     I'm sorry for what happened to him, but I don't need any trouble. Look what they
     did to him.\n\n I won't say a word. If you want to find out what Spade was up
     to, go to his office at Canal street. But I'm telling you, you'll end up just
@@ -4974,7 +4974,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1833788946}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.40741953
+  m_Size: 0.40741947
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6938,7 +6938,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "TEXT IN THE WALL\n\nSpade spent his last breath writing this. DTRMKSGAAT.
+  m_Text: "TEXT ON THE WALL\n\nSpade spent his last breath writing this. DTRMKSGAAT.
     He either started speaking in tongues at the end or\u2026 or something."
 --- !u!222 &1884274477
 CanvasRenderer:
@@ -7699,6 +7699,11 @@ MonoBehaviour:
   clue3Open: 0
   clue4Open: 0
   clue5Open: 0
+  room1PuzzleOpen: 0000000000
+  room2PuzzleOpen: 0000000000
+  room3PuzzleOpen: 0000000000
+  room4PuzzleOpen: 0000000000
+  room5PuzzleOpen: 0000000000
 --- !u!4 &2100779640
 Transform:
   m_ObjectHideFlags: 0
@@ -7862,11 +7867,12 @@ MonoBehaviour:
   notificationDisplay: {fileID: 546777859}
   puzzleInput2: {fileID: 2136997736}
   notificationDisplay2: {fileID: 957199218}
-  puzzleAnswer: 19 06 07 46
-  puzzleAnswer2: HATRED
   puzzle1Answers:
   - 19 06 07 46
   - 19060746
+  puzzle2Answers:
+  - HATRED
+  - hatred
   lastRoom: 0
 --- !u!114 &2124144854
 MonoBehaviour:

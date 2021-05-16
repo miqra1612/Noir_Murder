@@ -34,8 +34,8 @@ public class UIManager : MonoBehaviour
 
     [Header("This part is for the puzzle answer, make sure you add the answer for your puzzle")]
    
-    public string puzzleAnswer2;
     public string[] puzzle1Answers;
+    public string[] puzzle2Answers;
 
     [Header("Check this variable if this is the last puzzle room in the game")]
     public bool lastRoom = false;
@@ -62,9 +62,10 @@ public class UIManager : MonoBehaviour
     // This is a fungtion to check puzzle 1 answer, if correct a new clue will be open and player can advance to the new map
     public void CheckingAnswer1(bool canAdvance)
     {
+       
         var a = 0;
 
-        for(int i = 0;i< puzzle1Answers.Length; i++)
+        for (int i = 0; i < puzzle1Answers.Length; i++)
         {
             if (puzzleInput.text == puzzle1Answers[i])
             {
@@ -73,35 +74,46 @@ public class UIManager : MonoBehaviour
             }
         }
 
-        if(a > 0)
+        if (a > 0)
         {
-            
             SwitchCorrect1(true);
             AnswerCorrect(canAdvance);
+            GameData.instance.room1PuzzleOpen[0] = true;
         }
         else
         {
             StartCoroutine(AnswerFalse());
         }
+       
     }
 
     // This is a fungtion to check puzzle 2 answer, if correct a new clue will be open and player can advance to the new map
     public void CheckingAnswer2(bool canAdvance)
     {
-        if (puzzleInput2.text == puzzleAnswer2)
-        {
-            
-            SwitchCorrect2(true);
-            AnswerCorrect(canAdvance);
-        }
-        else
-        {
-            StartCoroutine(AnswerFalse2());
-        }
+            var a = 0;
+
+            for (int i = 0; i < puzzle2Answers.Length; i++)
+            {
+                if (puzzleInput2.text == puzzle2Answers[i])
+                {
+                    a++;
+                    break;
+                }
+            }
+
+            if (a > 0)
+            {
+                SwitchCorrect2(true);
+                AnswerCorrect(canAdvance);
+                GameData.instance.room1PuzzleOpen[1] = true;
+            }
+            else
+            {
+                StartCoroutine(AnswerFalse2());
+            }
+       
     }
-
-   
-
+    
     // This is a fungtion to activate a clue window 1
     public void SwitchClue1(bool isActive)
     {
@@ -118,13 +130,22 @@ public class UIManager : MonoBehaviour
     // This is a fungtion to activate a clue window 2
     public void SwitchClue2(bool isActive)
     {
-        if (isActive)
+        bool isComplete = GameData.instance.room1PuzzleOpen[0];
+
+        if (isComplete)
         {
-            clue2.Play("Window Enter");
+            SwitchCorrect1(true);
         }
         else
         {
-            clue2.Play("Window Exit");
+            if (isActive)
+            {
+                clue2.Play("Window Enter");
+            }
+            else
+            {
+                clue2.Play("Window Exit");
+            }
         }
     }
 
@@ -144,13 +165,23 @@ public class UIManager : MonoBehaviour
     // This is a fungtion to activate a clue window 4
     public void SwitchClue4(bool isActive)
     {
-        if (isActive)
+        bool isComplete = GameData.instance.room1PuzzleOpen[1];
+
+        if (isComplete)
         {
-            clue4.Play("Window Enter");
+            SwitchCorrect2(true);
+            Debug.Log("aa");
         }
         else
         {
-            clue4.Play("Window Exit");
+            if (isActive)
+            {
+                clue4.Play("Window Enter");
+            }
+            else
+            {
+                clue4.Play("Window Exit");
+            }
         }
     }
 
@@ -189,7 +220,7 @@ public class UIManager : MonoBehaviour
     {
         string prev = notificationDisplay.text;
 
-        notificationDisplay.text = "Nothing happen";
+        notificationDisplay.text = "Nothing happened";
         notificationDisplay.color = Color.red;
 
         yield return new WaitForSeconds(1);
@@ -202,16 +233,14 @@ public class UIManager : MonoBehaviour
     {
         string prev = notificationDisplay2.text;
 
-        notificationDisplay2.text = "Nothing happen";
+        notificationDisplay2.text = "Nothing happened";
         notificationDisplay2.color = Color.red;
 
         yield return new WaitForSeconds(1);
         notificationDisplay2.text = prev;
         notificationDisplay2.color = Color.black;
     }
-
-   
-
+    
     // This function is used to activate a clue when puzzle 1 answer is correct
     public void SwitchCorrect1(bool isActive)
     {
@@ -224,6 +253,7 @@ public class UIManager : MonoBehaviour
         {
             correct1.Play("Window Exit");
         }
+        
     }
 
     // This function is used to activate a clue when puzzle 2 answer is correct
@@ -239,10 +269,5 @@ public class UIManager : MonoBehaviour
             correct2.Play("Window Exit");
         }
     }
-
-   
-
-
-   
-
+    
 }
