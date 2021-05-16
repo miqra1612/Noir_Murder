@@ -480,12 +480,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1718844687}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1286.7778, y: 855.1712}
+  m_SizeDelta: {x: 1727.2161, y: 1147.8792}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &38353269
 MonoBehaviour:
@@ -1650,7 +1650,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.15
-  m_Text: "Investigation Board\n\n\"A Picture of Frank Markone with the mayor, mayor's
+  m_Text: "Investigation Board\n\n\"A Picture of Frank Marcone with the mayor, mayor's
     wife and the police chief. What the hell\u2026\nI need to know who hired Spade.
     This might be the key to this whole mess. \n\nI see a note there, in the corner.
     It reads: \"\"He came to me today, in his stupid lime-green hat. And asked me
@@ -2652,7 +2652,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 31.400024}
+  m_AnchoredPosition: {x: 0, y: 31.400146}
   m_SizeDelta: {x: 1809.9739, y: 420.35382}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &456395845
@@ -2730,12 +2730,12 @@ RectTransform:
   m_LocalScale: {x: 1.000011, y: 1.000011, z: 1.000011}
   m_Children: []
   m_Father: {fileID: 1718844687}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1610.467, y: 1216.5762}
+  m_SizeDelta: {x: 1610.467, y: 86.185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &463583246
 MonoBehaviour:
@@ -2769,14 +2769,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.1
-  m_Text: "PHOTO\n\n\"There's a note in the safe: \"\"They met again in the secret
-    room of the Lousy Rabbit. I know it, but I can't go to the mayor with only grainy
-    photos and my word. \n\nI need to go back. \n\nHis daughter is willing to help.
-    Figures. She wrote \"\"Rosebud\"\" on a napkin. This will get me the evidence.
-    The letter from him that will prove it all. I hope I will survive long enough
-    to get paid for this crap.\"\"\n\nThere's also a photo of Marcone, his whife,
-    the mayor's wife and the police chief at an opening of Southbridge mall last
-    fall.\""
+  m_Text: PHOTO
 --- !u!222 &463583247
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5339,6 +5332,11 @@ MonoBehaviour:
   clue3Open: 0
   clue4Open: 0
   clue5Open: 0
+  room1PuzzleOpen: 0000000000
+  room2PuzzleOpen: 0000000000
+  room3PuzzleOpen: 0000000000
+  room4PuzzleOpen: 0000000000
+  room5PuzzleOpen: 0000000000
 --- !u!4 &1077004477
 Transform:
   m_ObjectHideFlags: 0
@@ -5970,7 +5968,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
+    m_Font: {fileID: 12800000, guid: a58b5ee4ed1b72e4baa1a37f20d6f9fe, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -6718,7 +6716,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 638314970}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5156706
+  m_Size: 0.8469185
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7408,8 +7406,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 295.3, y: 0.00012207031}
-  m_SizeDelta: {x: 1079.7207, y: 1180.5344}
+  m_AnchoredPosition: {x: 295.3, y: 13.9001465}
+  m_SizeDelta: {x: 1079.7207, y: 1166.6758}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1475367621
 MonoBehaviour:
@@ -7448,7 +7446,8 @@ MonoBehaviour:
     a PI without interrupting his lunch.\n\nThe first photo is on Inauguration day.
     Marcone with his wife Elvira, Mayor Brinn and the police chief. April 20th, 1947.
     \n\nThe second one is the opening of Sherwood Casino on June 7th, 1946. Again,
-    Marcone and the mayor, with both of their wives, and bishop Rober Partridge.\""
+    Marcone and the mayor, with both of their wives. Elvira and the mayor's wife
+    Regina, and bishop Rober Partridge.\""
 --- !u!222 &1475367622
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7669,7 +7668,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 684906469}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5082306
+  m_Size: 0.5082307
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8222,7 +8221,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Who hire him
+  m_Text: Who hired him
 --- !u!222 &1619855640
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8598,8 +8597,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 38353268}
   - {fileID: 463583245}
+  - {fileID: 38353268}
   m_Father: {fileID: 436858240}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10691,8 +10690,8 @@ MonoBehaviour:
     of Marcone\u2026 Marcone's bar\u2026 It seems that he was the target of the investigation.
     What did Spade get himself into. Spying on Marcone? Insanity. \n\nIf Spade hadn't
     changed, he probably changed the code for his safe at the beginning of the investigation.
-    He hides sensitive materials there. And he usually uses some form of the employers
-    made for the code. At least he used to. Something not too obvious, though\u2026
+    He hides sensitive materials there. And he usually uses some form of the employer's
+    name for the code. At least he used to. Something not too obvious, though\u2026
     something\u2026\""
 --- !u!222 &2023685864
 CanvasRenderer:
