@@ -970,6 +970,11 @@ MonoBehaviour:
   clue3Open: 0
   clue4Open: 0
   clue5Open: 0
+  room1PuzzleOpen: 0000000000
+  room2PuzzleOpen: 0000000000
+  room3PuzzleOpen: 0000000000
+  room4PuzzleOpen: 0000000000
+  room5PuzzleOpen: 0000000000
 --- !u!4 &794041318
 Transform:
   m_ObjectHideFlags: 0
@@ -1817,7 +1822,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Noir Murder
+  m_Text: '""'
 --- !u!222 &1782213145
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2051,7 +2056,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: v 0.1.3
+  m_Text: v 0.1.4
 --- !u!222 &1945672177
 CanvasRenderer:
   m_ObjectHideFlags: 0
