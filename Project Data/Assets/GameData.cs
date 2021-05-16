@@ -23,6 +23,21 @@ public class GameData : MonoBehaviour
     public bool clue4Open = false;
     public bool clue5Open = false;
 
+    [Header("This part is for room1 data")]
+    public bool[] room1PuzzleOpen;
+
+    [Header("This part is for room2 data")]
+    public bool[] room2PuzzleOpen;
+
+    [Header("This part is for room3 data")]
+    public bool[] room3PuzzleOpen;
+
+    [Header("This part is for room4 data")]
+    public bool[] room4PuzzleOpen;
+
+    [Header("This part is for room5 data")]
+    public bool[] room5PuzzleOpen;
+
     public static GameData instance;
 
     private void Awake()
