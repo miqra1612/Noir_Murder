@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using System;
 
 /// <summary>
 /// This script is used to control user interface of the game suach as game panel, animation, user input and warning
@@ -58,16 +58,18 @@ public class UIManagerRoom5 : MonoBehaviour
     // This is a fungtion to check puzzle 1 answer, if correct a new clue will be open and player can advance to the new map
     public void CheckingAnswer1(bool canAdvance)
     {
-        if(puzzleInput.text == puzzleAnswer)
+        
+        if (puzzleInput.text == puzzleAnswer)
         {
-            
             SwitchCorrect1(true);
             AnswerCorrect(canAdvance);
+            GameData.instance.room5PuzzleOpen[0] = true;
         }
         else
         {
             StartCoroutine(AnswerFalse());
         }
+        
     }
 
     // This is a fungtion to check puzzle 2 answer, if correct a new clue will be open and player can advance to the new map
@@ -75,9 +77,12 @@ public class UIManagerRoom5 : MonoBehaviour
     {
         var a = 0;
 
-        for(int i = 0; i < puzzle2Answers.Length; i++)
+        for (int i = 0; i < puzzle2Answers.Length; i++)
         {
-            if (puzzleInput2.text == puzzle2Answers[i])
+            string s = puzzleInput2.text;
+            bool A = s.Equals(puzzle2Answers[i], StringComparison.CurrentCultureIgnoreCase);
+
+            if (A == true)
             {
                 a++;
                 break;
@@ -88,38 +93,61 @@ public class UIManagerRoom5 : MonoBehaviour
         {
             SwitchCorrect2(true);
             AnswerCorrect(canAdvance);
+            GameData.instance.room5PuzzleOpen[1] = true;
         }
         else
         {
             StartCoroutine(AnswerFalse2());
         }
+        
+        
     }
     
     // This is a fungtion to activate a clue window 1
     public void SwitchClue1(bool isActive)
     {
-        if (isActive)
+        bool isComplete = GameData.instance.room5PuzzleOpen[0];
+
+        if (isComplete)
         {
-            clue1.Play("Window Enter");
-            clue1On = isActive;
+            SwitchCorrect1(true);
         }
         else
         {
-            clue1.Play("Window Exit");
+            if (isActive)
+            {
+                clue1.Play("Window Enter");
+                clue1On = isActive;
+            }
+            else
+            {
+                clue1.Play("Window Exit");
+            }
         }
     }
 
     // This is a fungtion to activate a clue window 2
     public void SwitchClue2(bool isActive)
     {
-        if (isActive)
+
+        bool isComplete = GameData.instance.room5PuzzleOpen[1];
+
+        if (isComplete)
         {
-            clue2.Play("Window Enter");
-            clue2On = isActive;
+            SwitchCorrect2(true);
         }
         else
         {
-            clue2.Play("Window Exit");
+
+            if (isActive)
+            {
+                clue2.Play("Window Enter");
+                clue2On = isActive;
+            }
+            else
+            {
+                clue2.Play("Window Exit");
+            }
         }
     }
 

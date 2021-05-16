@@ -49,54 +49,77 @@ public class UIManagerRoom4 : MonoBehaviour
     // This is a fungtion to check puzzle 1 answer, if correct a new clue will be open and player can advance to the new map
     public void CheckingAnswer1(bool canAdvance)
     {
-        if(puzzleInput.text == puzzleAnswer)
+        
+        if (puzzleInput.text == puzzleAnswer)
         {
             AnswerCorrect(canAdvance);
             SwitchCorrect1(true);
+            GameData.instance.room4PuzzleOpen[0] = true;
         }
         else
         {
             StartCoroutine(AnswerFalse());
         }
+        
     }
 
     // This is a fungtion to check puzzle 2 answer, if correct a new clue will be open and player can advance to the new map
     public void CheckingAnswer2(bool canAdvance)
     {
-        var a = 0;
+        bool isComplete = GameData.instance.room4PuzzleOpen[1];
 
-        for(int i =0; i < puzzle2Answers.Length; i++)
+        if (isComplete)
         {
-            if (puzzleInput2.text == puzzle2Answers[i])
-            {
-                a++;
-                break;
-            }
-        }
-
-        if (a > 0)
-        {
-            AnswerCorrect(canAdvance);
             SwitchCorrect2(true);
         }
         else
         {
-            StartCoroutine(AnswerFalse2());
+            var a = 0;
+
+            for (int i = 0; i < puzzle2Answers.Length; i++)
+            {
+                if (puzzleInput2.text == puzzle2Answers[i])
+                {
+                    a++;
+                    break;
+                }
+            }
+
+            if (a > 0)
+            {
+                AnswerCorrect(canAdvance);
+                SwitchCorrect2(true);
+                GameData.instance.room4PuzzleOpen[1] = true;
+            }
+            else
+            {
+                StartCoroutine(AnswerFalse2());
+            }
         }
+        
     }
 
    
     // This is a fungtion to activate a clue window 1
     public void SwitchClue1(bool isActive)
     {
-        if (isActive)
+        bool isComplete = GameData.instance.room4PuzzleOpen[0];
+
+        if (isComplete)
         {
-            clue1.Play("Window Enter");
-            clue1On = true;
+            SwitchCorrect1(true);
         }
         else
         {
-            clue1.Play("Window Exit");
+            if (isActive)
+            {
+                clue1.Play("Window Enter");
+                clue1On = true;
+            }
+            else
+            {
+                clue1.Play("Window Exit");
+            }
         }
     }
 
@@ -169,7 +192,7 @@ public class UIManagerRoom4 : MonoBehaviour
     {
         string prev = notificationDisplay.text;
 
-        notificationDisplay.text = "Nothing happen";
+        notificationDisplay.text = "Nothing happened";
         notificationDisplay.color = Color.red;
 
         yield return new WaitForSeconds(1);
@@ -182,7 +205,7 @@ public class UIManagerRoom4 : MonoBehaviour
     {
         string prev = notificationDisplay2.text;
 
-        notificationDisplay2.text = "Nothing happen";
+        notificationDisplay2.text = "Nothing happened";
         notificationDisplay2.color = Color.red;
 
         yield return new WaitForSeconds(1);

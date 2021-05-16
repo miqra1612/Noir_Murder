@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using System;
 
 /// <summary>
 /// This script is used to control user interface of the game suach as game panel, animation, user input and warning
@@ -69,21 +69,27 @@ public class UIManagerRoom2 : MonoBehaviour
     // This is a fungtion to check puzzle 1 answer, if correct a new clue will be open and player can advance to the new map
     public void CheckingAnswer1(bool canAdvance)
     {
-        if(puzzleInput.text == puzzleAnswer)
-        {
-            
-            SwitchCorrect1(true);
-            AnswerCorrect(canAdvance);
-        }
-        else
-        {
-            StartCoroutine(AnswerFalse());
-        }
+       
+            string s = puzzleInput.text;
+            var A = s.Equals(puzzleAnswer, StringComparison.CurrentCultureIgnoreCase);
+
+            if (A == true)
+            {
+                SwitchCorrect1(true);
+                AnswerCorrect(canAdvance);
+                GameData.instance.room2PuzzleOpen[0] = true;
+            }
+            else
+            {
+                StartCoroutine(AnswerFalse());
+            }
+       
     }
 
     // This is a fungtion to check puzzle 2 answer, if correct a new clue will be open and player can advance to the new map
     public void CheckingAnswer2(bool canAdvance)
     {
+       
         var a = 0;
 
         for (int i = 0; i < puzzle2Answers.Length; i++)
@@ -97,32 +103,33 @@ public class UIManagerRoom2 : MonoBehaviour
 
         if (a > 0)
         {
-            
             SwitchCorrect2(true);
             AnswerCorrect(canAdvance);
+            GameData.instance.room2PuzzleOpen[1] = true;
         }
         else
         {
             StartCoroutine(AnswerFalse2());
         }
+        
     }
 
     public void CheckingAnswer3(bool canAdvance)
     {
+        
         if (puzzleInput3.text == puzzleAnswer3)
         {
-            
             SwitchCorrect3(true);
             AnswerCorrect(canAdvance);
+            GameData.instance.room2PuzzleOpen[2] = true;
         }
         else
         {
             StartCoroutine(AnswerFalse3());
         }
+       
     }
-
-   
-
+    
     // This is a fungtion to activate a clue window 1
     public void SwitchClue1(bool isActive)
     {
@@ -139,13 +146,22 @@ public class UIManagerRoom2 : MonoBehaviour
     // This is a fungtion to activate a clue window 2
     public void SwitchClue2(bool isActive)
     {
-        if (isActive)
+        bool isComplete = GameData.instance.room2PuzzleOpen[0];
+
+        if (isComplete)
         {
-            clue2.Play("Window Enter");
+            SwitchCorrect1(true);
         }
         else
         {
-            clue2.Play("Window Exit");
+            if (isActive)
+            {
+                clue2.Play("Window Enter");
+            }
+            else
+            {
+                clue2.Play("Window Exit");
+            }
         }
     }
 
@@ -165,26 +181,44 @@ public class UIManagerRoom2 : MonoBehaviour
     // This is a fungtion to activate a clue window 4
     public void SwitchClue4(bool isActive)
     {
-        if (isActive)
+        bool isComplete = GameData.instance.room2PuzzleOpen[1];
+
+        if (isComplete)
         {
-            clue4.Play("Window Enter");
+            SwitchCorrect2(true);
         }
         else
         {
-            clue4.Play("Window Exit");
+            if (isActive)
+            {
+                clue4.Play("Window Enter");
+            }
+            else
+            {
+                clue4.Play("Window Exit");
+            }
         }
     }
 
     // This is a fungtion to activate a clue window 4
     public void SwitchClue5(bool isActive)
     {
-        if (isActive)
+        bool isComplete = GameData.instance.room2PuzzleOpen[2];
+
+        if (isComplete)
         {
-            clue5.Play("Window Enter");
+            SwitchCorrect3(true);
         }
         else
         {
-            clue5.Play("Window Exit");
+            if (isActive)
+            {
+                clue5.Play("Window Enter");
+            }
+            else
+            {
+                clue5.Play("Window Exit");
+            }
         }
     }
 
@@ -196,9 +230,7 @@ public class UIManagerRoom2 : MonoBehaviour
         {
             gameData.gamePhase++;
         }
-
-
-
+        
         if (clue1On)
         {
             clue1On = false;
@@ -239,7 +271,7 @@ public class UIManagerRoom2 : MonoBehaviour
     {
         string prev = notificationDisplay.text;
 
-        notificationDisplay.text = "Nothing happen";
+        notificationDisplay.text = "Nothing happened";
         notificationDisplay.color = Color.red;
 
         yield return new WaitForSeconds(1);
@@ -252,7 +284,7 @@ public class UIManagerRoom2 : MonoBehaviour
     {
         string prev = notificationDisplay2.text;
 
-        notificationDisplay2.text = "Nothing happen";
+        notificationDisplay2.text = "Nothing happened";
         notificationDisplay2.color = Color.red;
 
         yield return new WaitForSeconds(1);
@@ -264,16 +296,14 @@ public class UIManagerRoom2 : MonoBehaviour
     {
         string prev = notificationDisplay3.text;
 
-        notificationDisplay3.text = "Nothing happen";
+        notificationDisplay3.text = "Nothing happened";
         notificationDisplay3.color = Color.red;
 
         yield return new WaitForSeconds(1);
         notificationDisplay3.text = prev;
         notificationDisplay3.color = Color.black;
     }
-
-   
-
+    
     // This function is used to activate a clue when puzzle 1 answer is correct
     public void SwitchCorrect1(bool isActive)
     {
