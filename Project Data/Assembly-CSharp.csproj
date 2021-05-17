@@ -67,6 +67,7 @@
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\HiddenButton.cs" />
     <Compile Include="Assets\HintManager.cs" />
+    <Compile Include="Assets\RegisterManager.cs" />
     <Compile Include="Assets\SceneController.cs" />
     <Compile Include="Assets\SignInManager.cs" />
     <Compile Include="Assets\UIManager.cs" />
