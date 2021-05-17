@@ -15,6 +15,7 @@ public class GameData : MonoBehaviour
     public string endTime;
     public string teamName;
     public double clueTime;
+    public string username;
 
     [Header("This part is for all clue buttons data")]
     public bool clue1Open = false;
