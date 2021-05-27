@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using SimpleJSON;
 
 /// <summary>
 /// This script is used to controll user sign in process to the game
@@ -14,6 +15,7 @@ public class SignInManager : MonoBehaviour
     public InputField teamName;
     public GameObject signInPanel;
     public GameObject failText;
+    public Text userMessage;
     // Start is called before the first frame update
     void Start()
     {
@@ -66,54 +68,57 @@ public class SignInManager : MonoBehaviour
     IEnumerator RealLogIn()
     {
         WWWForm form = new WWWForm();
-        form.AddField("username", signInPassword.text);
-        form.AddField("password", signInPassword.text);  
+      
+        form.AddField("code", signInPassword.text);  
         
-        WWW host = new WWW("http://localhost/sqlconnect/login.php", form);
+        WWW host = new WWW("https://api.teambreak.com/code", form);
         yield return host;
 
         Debug.Log(host.text);
 
-        if (host.text.Split()[0] == "0" && host.text.Split()[2] == "0")
+        JSONNode jsonNode = SimpleJSON.JSON.Parse(host.text);
+
+        //using json if success = true continue else display message into the user
+        
+        string success = jsonNode["success"].Value.ToString();
+
+        if (success == "True")
         {
-            
-            GameData.instance.teamName = teamName.text;
-            GameData.instance.username = host.text.Split()[1];
+            GameData.instance.teamName = teamName.text;;
             signInPanel.SetActive(false);
-            StartCoroutine(UsedPassword());
+            //StartCoroutine(UsedPassword());
         }
         else
         {
+            userMessage.text = jsonNode["message"].Value.ToString();
             failText.SetActive(true);
             StartCoroutine(LogInFail());
         }
-
     }
 
+    //IEnumerator UsedPassword()
+    //{
+    //    yield return new WaitForEndOfFrame();
 
-    IEnumerator UsedPassword()
-    {
-        yield return new WaitForEndOfFrame();
+    //    int a = 1;
 
-        int a = 1;
+    //    WWWForm form = new WWWForm();
+    //    form.AddField("username", GameData.instance.username);
+    //    form.AddField("count", a);
 
-        WWWForm form = new WWWForm();
-        form.AddField("username", GameData.instance.username);
-        form.AddField("count", a);
+    //    WWW www = new WWW("https://api.teambreak.com/code", form);
+    //    yield return www;
 
-        WWW www = new WWW("http://localhost/sqlconnect/savedata.php", form);
-        yield return www;
+    //    Debug.Log("www:  " + www.text);
 
-        Debug.Log("www:  " + www.text);
+    //    if (www.text.Split()[2] != "0")
+    //    {
+    //        Debug.Log("password used, you cannot use it anymore!");
+    //    }
+    //    else
+    //    {
+    //        Debug.Log("save data error: password used count fail");
+    //    }
 
-        if (www.text.Split()[2] != "0")
-        {
-            Debug.Log("password used, you cannot use it anymore!");
-        }
-        else
-        {
-            Debug.Log("save data error: password used count fail");
-        }
-
-    }
+    //}
 }

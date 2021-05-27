@@ -70,6 +70,7 @@
     <Compile Include="Assets\RegisterManager.cs" />
     <Compile Include="Assets\SceneController.cs" />
     <Compile Include="Assets\SignInManager.cs" />
+    <Compile Include="Assets\SimpleJSON.cs" />
     <Compile Include="Assets\UIManager.cs" />
     <Compile Include="Assets\UIManagerRoom2.cs" />
     <Compile Include="Assets\UIManagerRoom3.cs" />
