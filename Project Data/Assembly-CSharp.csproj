@@ -62,20 +62,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CertificateManager.cs" />
-    <Compile Include="Assets\GameData.cs" />
-    <Compile Include="Assets\GameManager.cs" />
-    <Compile Include="Assets\HiddenButton.cs" />
-    <Compile Include="Assets\HintManager.cs" />
-    <Compile Include="Assets\RegisterManager.cs" />
-    <Compile Include="Assets\SceneController.cs" />
-    <Compile Include="Assets\SignInManager.cs" />
-    <Compile Include="Assets\SimpleJSON.cs" />
-    <Compile Include="Assets\UIManager.cs" />
-    <Compile Include="Assets\UIManagerRoom2.cs" />
-    <Compile Include="Assets\UIManagerRoom3.cs" />
-    <Compile Include="Assets\UIManagerRoom4.cs" />
-    <Compile Include="Assets\UIManagerRoom5.cs" />
+    <Compile Include="Assets\NoirMurder\Script\CertificateManager.cs" />
+    <Compile Include="Assets\NoirMurder\Script\GameData.cs" />
+    <Compile Include="Assets\NoirMurder\Script\GameManager.cs" />
+    <Compile Include="Assets\NoirMurder\Script\HiddenButton.cs" />
+    <Compile Include="Assets\NoirMurder\Script\HintManager.cs" />
+    <Compile Include="Assets\NoirMurder\Script\RegisterManager.cs" />
+    <Compile Include="Assets\NoirMurder\Script\SceneController.cs" />
+    <Compile Include="Assets\NoirMurder\Script\SignInManager.cs" />
+    <Compile Include="Assets\NoirMurder\Script\SimpleJSON.cs" />
+    <Compile Include="Assets\NoirMurder\Script\UIManager.cs" />
+    <Compile Include="Assets\NoirMurder\Script\UIManagerRoom2.cs" />
+    <Compile Include="Assets\NoirMurder\Script\UIManagerRoom3.cs" />
+    <Compile Include="Assets\NoirMurder\Script\UIManagerRoom4.cs" />
+    <Compile Include="Assets\NoirMurder\Script\UIManagerRoom5.cs" />
+    <Compile Include="Assets\WebGLCopyAndPaste\Scripts\WebGLCopyAndPaste.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/unity 2019.4.17/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
