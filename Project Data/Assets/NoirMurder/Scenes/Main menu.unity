@@ -1960,7 +1960,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '""'
+  m_Text: WELLCOME
 --- !u!222 &1782213145
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2324,7 +2324,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: v 0.1.7 rc 2
+  m_Text: v 2.0.0
 --- !u!222 &1945672177
 CanvasRenderer:
   m_ObjectHideFlags: 0
