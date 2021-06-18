@@ -2039,7 +2039,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter answer here...
+  m_Text: 
 --- !u!222 &283881865
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2847,7 +2847,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter answer here...
+  m_Text: 
 --- !u!222 &481715900
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4139,6 +4139,91 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 707013497}
   m_CullTransparentMesh: 0
+--- !u!1 &733155260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 733155261}
+  - component: {fileID: 733155263}
+  - component: {fileID: 733155262}
+  m_Layer: 5
+  m_Name: TextNum
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &733155261
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733155260}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1444777949}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -864.09985, y: 24.000122}
+  m_SizeDelta: {x: -1828.2659, y: -610}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &733155262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733155260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
+    m_FontSize: 60
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 6
+    m_MaxSize: 60
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: '1.
+
+
+
+    2.
+
+
+    3.'
+--- !u!222 &733155263
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733155260}
+  m_CullTransparentMesh: 0
 --- !u!1 &746570155
 GameObject:
   m_ObjectHideFlags: 0
@@ -5154,7 +5239,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter answer here...
+  m_Text: 
 --- !u!222 &1074066567
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5327,6 +5412,7 @@ MonoBehaviour:
   endTime: 
   teamName: 
   clueTime: 0
+  username: 
   clue1Open: 0
   clue2Open: 0
   clue3Open: 0
@@ -5923,7 +6009,7 @@ GameObject:
   - component: {fileID: 1198376370}
   - component: {fileID: 1198376369}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TextTitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5945,8 +6031,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 155}
-  m_SizeDelta: {x: -100, y: -610}
+  m_AnchoredPosition: {x: 0, y: 398}
+  m_SizeDelta: {x: -100, y: -1096.0747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1198376369
 MonoBehaviour:
@@ -5968,7 +6054,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: a58b5ee4ed1b72e4baa1a37f20d6f9fe, type: 3}
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -5980,15 +6066,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hint:
-
-
-    1. Match the button in the typemachine with correct keyboard
-    order.
-
-    2. Check the newspaper.
-
-    3. He is someone important.'
+  m_Text: 'Hint:'
 --- !u!222 &1198376370
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7156,6 +7234,8 @@ RectTransform:
   m_Children:
   - {fileID: 1341638695}
   - {fileID: 1198376368}
+  - {fileID: 733155261}
+  - {fileID: 1708162389}
   m_Father: {fileID: 488723120}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8490,6 +8570,91 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668828061}
   m_CullTransparentMesh: 0
+--- !u!1 &1708162388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1708162389}
+  - component: {fileID: 1708162391}
+  - component: {fileID: 1708162390}
+  m_Layer: 5
+  m_Name: TextClue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1708162389
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708162388}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1444777949}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 45.883057, y: 24}
+  m_SizeDelta: {x: -191.76697, y: -610}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1708162390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708162388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 613601c3e7e7dff4c9cb750e2990b8c2, type: 3}
+    m_FontSize: 60
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 6
+    m_MaxSize: 60
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1.02
+  m_Text: 'Match the button in the typemachine with correct keyboard order.
+
+
+    Check
+    the newspaper.
+
+
+    He is someone important.'
+--- !u!222 &1708162391
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708162388}
+  m_CullTransparentMesh: 0
 --- !u!1 &1714139183
 GameObject:
   m_ObjectHideFlags: 0
@@ -9759,7 +9924,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter answer here...
+  m_Text: 
 --- !u!222 &1915224338
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10512,7 +10677,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter answer here...
+  m_Text: 
 --- !u!222 &1998948063
 CanvasRenderer:
   m_ObjectHideFlags: 0
