@@ -1195,10 +1195,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'CONGRATULATION
+  m_Text: '''CONGRATULATIONS DETECTIVES''
 
 
-    You solve the case and put justice to the criminal.'
+    You''ve solved the case and served
+    justice, the city is safe once more.'
 --- !u!222 &456395846
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3347,7 +3348,7 @@ GameObject:
   - component: {fileID: 1163317168}
   - component: {fileID: 1163317170}
   m_Layer: 5
-  m_Name: Finish Panel Panel
+  m_Name: Finish Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3937,8 +3938,7 @@ MonoBehaviour:
     m_LineSpacing: 1.2
   m_Text: '1.
 
-
-    2.'
+'
 --- !u!222 &1314539416
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4329,7 +4329,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 56.287, y: 48}
+  m_AnchoredPosition: {x: 56.28711, y: 48}
   m_SizeDelta: {x: -212.57324, y: -610}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1379906630
@@ -4364,10 +4364,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: 'Check all the hands that you found
-
-
-    He is in the photo together.'
+  m_Text: The hands you've found along the way all pointed in different directions
+    when compared to the arrow on this one.
 --- !u!222 &1379906631
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7070,4 +7068,5 @@ MonoBehaviour:
   - Marcone
   - Frank
   - Frank Marcone
+  - FrankMarcone
   lastRoom: 1

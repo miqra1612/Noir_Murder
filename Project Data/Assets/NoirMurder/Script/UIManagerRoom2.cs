@@ -71,7 +71,7 @@ public class UIManagerRoom2 : MonoBehaviour
     {
        
             string s = puzzleInput.text;
-            var A = s.Equals(puzzleAnswer, StringComparison.CurrentCultureIgnoreCase);
+            var A = s.Equals(puzzleAnswer, StringComparison.OrdinalIgnoreCase);
 
             if (A == true)
             {
@@ -94,7 +94,7 @@ public class UIManagerRoom2 : MonoBehaviour
 
         for (int i = 0; i < puzzle2Answers.Length; i++)
         {
-            if (puzzleInput2.text == puzzle2Answers[i])
+            if (puzzleInput2.text.Equals( puzzle2Answers[i],StringComparison.OrdinalIgnoreCase))
             {
                 a++;
                 break;
@@ -117,7 +117,7 @@ public class UIManagerRoom2 : MonoBehaviour
     public void CheckingAnswer3(bool canAdvance)
     {
         
-        if (puzzleInput3.text == puzzleAnswer3)
+        if (puzzleInput3.text.Equals(puzzleAnswer3,StringComparison.OrdinalIgnoreCase))
         {
             SwitchCorrect3(true);
             AnswerCorrect(canAdvance);

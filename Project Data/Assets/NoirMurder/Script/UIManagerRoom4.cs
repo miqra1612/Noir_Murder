@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using System;
 
 /// <summary>
 /// This script is used to control user interface of the game suach as game panel, animation, user input and warning
@@ -50,7 +50,7 @@ public class UIManagerRoom4 : MonoBehaviour
     public void CheckingAnswer1(bool canAdvance)
     {
         
-        if (puzzleInput.text == puzzleAnswer)
+        if (puzzleInput.text.Equals( puzzleAnswer, StringComparison.OrdinalIgnoreCase))
         {
             AnswerCorrect(canAdvance);
             SwitchCorrect1(true);
@@ -78,7 +78,7 @@ public class UIManagerRoom4 : MonoBehaviour
 
             for (int i = 0; i < puzzle2Answers.Length; i++)
             {
-                if (puzzleInput2.text == puzzle2Answers[i])
+                if (puzzleInput2.text.Equals( puzzle2Answers[i],StringComparison.OrdinalIgnoreCase))
                 {
                     a++;
                     break;

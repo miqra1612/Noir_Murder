@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using System;
 
 /// <summary>
 /// This script is used to control user interface of the game suach as game panel, animation, user input and warning
@@ -51,7 +51,7 @@ public class UIManagerRoom3 : MonoBehaviour
     // This is a fungtion to check puzzle 1 answer, if correct a new clue will be open and player can advance to the new map
     public void CheckingAnswer1(bool canAdvance)
     {
-        if (puzzleInput.text == puzzleAnswer)
+        if (puzzleInput.text.Equals( puzzleAnswer, StringComparison.OrdinalIgnoreCase))
         {
             AnswerCorrect(canAdvance);
             SwitchCorrect1(true);
