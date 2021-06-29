@@ -59,7 +59,7 @@ public class UIManagerRoom5 : MonoBehaviour
     public void CheckingAnswer1(bool canAdvance)
     {
         
-        if (puzzleInput.text == puzzleAnswer)
+        if (puzzleInput.text.Equals( puzzleAnswer, StringComparison.OrdinalIgnoreCase))
         {
             SwitchCorrect1(true);
             AnswerCorrect(canAdvance);
@@ -80,7 +80,7 @@ public class UIManagerRoom5 : MonoBehaviour
         for (int i = 0; i < puzzle2Answers.Length; i++)
         {
             string s = puzzleInput2.text;
-            bool A = s.Equals(puzzle2Answers[i], StringComparison.CurrentCultureIgnoreCase);
+            bool A = s.Equals(puzzle2Answers[i], StringComparison.OrdinalIgnoreCase);
 
             if (A == true)
             {
